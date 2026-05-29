@@ -1,0 +1,11 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "parameter_af",
+        "zone",
+        "IM"
+    ],
+    "coordinates": "T gmm_version",
+    "source": [
+        "gmpeSurfaceAmplificationModel_20211010_v7.csv"
+    ]
+}

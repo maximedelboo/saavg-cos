@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "b_median",
+        "parameter_duration"
+    ],
+    "coordinates": "gmm_version",
+    "source": [
+        "gmpeDuration_20170903_v5.csv"
+    ]
+}

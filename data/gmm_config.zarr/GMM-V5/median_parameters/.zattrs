@@ -1,0 +1,11 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "b_median",
+        "IM",
+        "parameter_median"
+    ],
+    "coordinates": "T gmm_version",
+    "source": [
+        "gmpe_medians_NS_B_20170724_v5.csv"
+    ]
+}

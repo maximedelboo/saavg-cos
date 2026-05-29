@@ -1,0 +1,12 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "b_median",
+        "b_tau"
+    ],
+    "coordinates": "gmm_version",
+    "distribution_type": "probability_mass",
+    "support_dims": [
+        "b_median",
+        "b_tau"
+    ]
+}

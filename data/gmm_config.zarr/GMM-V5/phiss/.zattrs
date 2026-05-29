@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "b_phiss",
+        "IM"
+    ],
+    "coordinates": "T gmm_version",
+    "source": [
+        "gmpe_sigmas_NS_B_20170831_v5.csv"
+    ]
+}

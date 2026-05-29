@@ -1,0 +1,8 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "b_phiss"
+    ],
+    "coordinates": "gmm_version",
+    "distribution_type": "probability_mass",
+    "support_dims": "b_phiss"
+}

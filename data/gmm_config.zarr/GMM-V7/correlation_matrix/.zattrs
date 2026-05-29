@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "IM",
+        "IM_T"
+    ],
+    "coordinates": "T gmm_version",
+    "source": [
+        "gmpe_period2period_correlations_20211010_v7.csv"
+    ]
+}

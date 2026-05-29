@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "saavg-cos"
+version = "1.0.0"
+description = "A deterministic COS method for the SaAvg distribution in the Groningen seismic hazard & risk chain"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "EUPL-1.2" }
+authors = [{ name = "Maxime del Boo" }]
+keywords = ["seismic-hazard", "risk", "COS-method", "Groningen", "GMM-V7", "characteristic-function"]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "pandas>=1.5",
+    "xarray>=2023.1",
+    "zarr>=2.13",
+    "matplotlib>=3.6",
+]
+
+[project.optional-dependencies]
+maps = ["geopandas>=0.12"]
+test = ["pytest>=7.0"]
+
+[tool.setuptools]
+packages = ["saavg_cos"]
+
+[tool.setuptools.package-data]
+"*" = ["*.md"]

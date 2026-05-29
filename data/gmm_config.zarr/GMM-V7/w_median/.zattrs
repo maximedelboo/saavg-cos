@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "lt_median_choice",
+        "b_median"
+    ],
+    "batch_dims": "lt_median_choice",
+    "coordinates": "gmm_version",
+    "distribution_type": "probability_mass",
+    "support_dims": "b_median"
+}

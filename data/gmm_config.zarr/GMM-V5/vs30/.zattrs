@@ -1,0 +1,9 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "zone"
+    ],
+    "coordinates": "gmm_version",
+    "source": [
+        "gmpeSurfaceZonationVs30_20170826_v5.csv"
+    ]
+}
