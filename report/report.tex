@@ -61,7 +61,7 @@ reproducible from the accompanying repository.
 \section{Introduction}
 The induced seismicity of the Groningen gas field motivated one of the most
 detailed regional seismic hazard and risk analyses ever assembled
-\citep{groningenSHRA}. Its model chain couples a seismic source model, a
+\cite{groningenSHRA}. Its model chain couples a seismic source model, a
 ground-motion model (GMM-V7), a site-response amplification model, and a
 fragility and consequence model (FCM-V7) to produce hazard curves, local
 personal risk (LPR) maps, and aggregate metrics such as the expected number of
@@ -77,7 +77,7 @@ spectral acceleration over a set of structural periods,
   \label{eq:saavg}
 \end{equation}
 over the $P=10$ Fastest-Converging-Mean (FCM) periods
-$T_i\in\{0.01,0.1,\dots,0.85,1.0\}$\,s \citep{crowleyPinho}. Each per-period
+$T_i\in\{0.01,0.1,\dots,0.85,1.0\}$\,s \cite{crowleyPinho}. Each per-period
 surface motion is the product of a reference (rock) motion and a non-linear
 amplification factor, both lognormal. The reference motions are strongly
 correlated across periods, and the amplification \emph{saturates} at strong
@@ -101,7 +101,7 @@ by combining three ingredients: (i) the conditional-Gaussian-mixture structure
 of $\saavg$ given the reference motion; (ii) a shared principal-component
 Gauss--Hermite quadrature that produces the leading cumulants $k_1,k_2,k_3$ of
 each scenario; and (iii) Fourier--cosine (COS) inversion
-\citep{fangOosterlee} of the cumulant characteristic function. The method never
+\cite{fangOosterlee} of the cumulant characteristic function. The method never
 histograms a distribution to disk -- it carries three numbers per scenario -- and
 all downstream integrals are closed-form or a single cached COS evaluation. We
 validate it against deep Monte-Carlo, benchmark its parallel performance on the
@@ -170,7 +170,7 @@ We approximate $\varphi$ by the cumulant characteristic function
 whose magnitude stays Gaussian-damped (so the inverse converges) while the cubic
 phase injects the skewness. The cumulative distribution is recovered on a
 truncated support $[a,b]=[k_1-L\sqrt{k_2},\,k_1+L\sqrt{k_2}]$ by the
-Fourier--cosine series \citep{fangOosterlee}
+Fourier--cosine series \cite{fangOosterlee}
 \begin{equation}
   F(x)\;\approx\;\sum_{j=0}^{N-1}{}^{\prime}\,
   \frac{2}{b-a}\,\mathrm{Re}\!\Big[\varphi\!\Big(\tfrac{j\pi}{b-a}\Big)

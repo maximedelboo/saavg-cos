@@ -7,8 +7,10 @@ leading cumulants by **Fourier–cosine (COS)** inversion — matching Monte-Car
 accuracy at the speed of the normal moment-matching method, while storing three
 numbers per scenario instead of a histogram.
 
-> **Read the report:** [`report/report.md`](report/report.md) (renders with
-> figures) or the formal [`report/report.tex`](report/report.tex).
+> **Read the report:** [`report/report.pdf`](report/report.pdf) (compiled) ·
+> [`report/report.md`](report/report.md) (renders with figures on GitHub) ·
+> [`report/report.tex`](report/report.tex) (source).
+> Rebuild with `tectonic report/report.tex` (or `pdflatex` twice).
 
 ![Risk metrics relative to Monte-Carlo](figures/fig_risk_metrics.png)
 
