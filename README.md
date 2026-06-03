@@ -11,6 +11,10 @@ numbers per scenario instead of a histogram.
 > [`report/report.md`](report/report.md) (renders with figures on GitHub) ·
 > [`report/report.tex`](report/report.tex) (source).
 > Rebuild with `tectonic report/report.tex` (or `pdflatex` twice).
+>
+> **Full mathematical derivations:** [`report/derivations.md`](report/derivations.md)
+> — every formula (conditional mixture → cumulants → COS inversion → fragility →
+> risk) derived step by step, cross-referenced to the code, with references.
 
 ![Risk metrics relative to Monte-Carlo](figures/fig_risk_metrics.png)
 

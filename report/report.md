@@ -66,6 +66,12 @@ characteristic function. We validate against deep MC, benchmark the parallel
 performance on the full logic tree, and carry the method to the aggregate risk
 metrics and regional hazard maps.
 
+> **Full step-by-step derivations** of everything in this section (conditional
+> mixture, PCA + Gauss–Hermite, mixture cumulants, the COS coefficients/CDF,
+> the fragility convolution, hazard/risk) are in
+> [`derivations.md`](derivations.md), cross-referenced to the code and with
+> references.
+
 ## 2. Method
 
 **Conditional Gaussian mixture.** Let `X ~ N(μ, Σ)` be the reference
