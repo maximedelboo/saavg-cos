@@ -1,6 +1,6 @@
 # A deterministic Fourier–cosine (COS) method for the average spectral acceleration distribution in the Groningen seismic hazard and risk chain
 
-*Maxime del Boo, 2026.* This is a readable rendering of the report; the formal,
+*Maxime Delboo, 2026.* This is a readable rendering of the report; the formal,
 citable version is [`report.tex`](report.tex). All figures and numbers below are
 reproduced by the scripts in this repository.
 

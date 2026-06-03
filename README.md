@@ -122,7 +122,7 @@ SHRA-Groningen model chain from which the GMM-V7/FCM-V7 parameters derive. See
 
 ```bibtex
 @software{saavg_cos_2026,
-  author = {del Boo, Maxime},
+  author = {Delboo, Maxime},
   title  = {saavg-cos: a deterministic COS method for the SaAvg distribution
             in the Groningen seismic hazard and risk chain},
   year   = {2026}, version = {1.0.0}

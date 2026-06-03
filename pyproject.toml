@@ -9,7 +9,7 @@ description = "A deterministic COS method for the SaAvg distribution in the Gron
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "EUPL-1.2" }
-authors = [{ name = "Maxime del Boo" }]
+authors = [{ name = "Maxime Delboo" }]
 keywords = ["seismic-hazard", "risk", "COS-method", "Groningen", "GMM-V7", "characteristic-function"]
 dependencies = [
     "numpy>=1.24",
